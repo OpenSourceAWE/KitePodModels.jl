@@ -20,7 +20,7 @@ Two P controllers are used.
 The geometric nonlinearity due to the change of the effective drum diameter of the drum with the depower tape is taken into account.
 
 ## Installation
-Follow the instructions at [Installation of Julia](https://ufechner7.github.io/2024/08/09/installing-julia-with-juliaup.html), using Julia 1.10 or later. Then you can add `KitePodModels` from  Julia's package manager, by typing 
+Follow the instructions at [Installation of Julia](https://ufechner7.github.io/2026/10/24/installing-julia-1.13-and-vscode.html), using Julia 1.12 or later. Then you can add `KitePodModels` from  Julia's package manager, by typing 
 ```julia
 using Pkg
 pkg"add KitePodModels"
@@ -85,10 +85,10 @@ This project is licensed under the MIT License. Please see the below WAIVER in a
 Technische Universiteit Delft hereby disclaims all copyright interest in the package “KitePodModels.jl” (models for airborne wind energy systems) written by the Author(s).
 
 ## Related
-- The meta-package  [KiteSimulators](https://github.com/aenarete/KiteSimulators.jl)
-- the package [KiteUtils](https://github.com/ufechner7/KiteUtils.jl)
+- The package [KiteUtils](https://github.com/ufechner7/KiteUtils.jl)
 - the packages [KiteModels](https://github.com/ufechner7/KiteModels.jl) and [WinchModels](https://github.com/aenarete/WinchModels.jl) and [AtmosphericModels](https://github.com/OpenSourceAWE/AtmosphericModels.jl)
-- the packages [KiteControllers](https://github.com/OpenSourceAWE/KiteControllers.jl) and[KiteViewers](https://github.com/OpenSourceAWE/KiteViewers.jl)
+- the package [RobustKiteControllers](https://github.com/OpenSourceAWE/RobustKiteControllers.jl) which provides path following controllers, but no reel-in control yet.
+- the packages [KiteControllers](https://github.com/OpenSourceAWE/KiteControllers.jl) and [KiteViewers](https://github.com/OpenSourceAWE/KiteViewers.jl)
 
 **Documentation** [Stable Version](https://OpenSourceAWE.github.io/KitePodModels.jl/stable) [Development Version](https://OpenSourceAWE.github.io/KitePodModels.jl/dev)
 
