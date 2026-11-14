@@ -1,8 +1,8 @@
 using Pkg
-if ! ("ControlPlots" ∈ keys(Pkg.project().dependencies))
+if ! ("MakieControlPlots" ∈ keys(Pkg.project().dependencies))
     using TestEnv; TestEnv.activate()
 end
-using KitePodModels, ControlPlots, LaTeXStrings
+using KitePodModels, MakieControlPlots, LaTeXStrings
 
 set = se()
 

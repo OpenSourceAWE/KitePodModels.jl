@@ -1,5 +1,12 @@
 # Changelog
 
+## KitePodModels v0.4.3 - 2026-11-14
+
+### Changed
+
+- Allow `KiteUtils` 0.14. The KCU model reads settings only, so none of that release's changes reach this package.
+- The tests and examples plot with MakieControlPlots instead of ControlPlots, so they need no Python or Matplotlib.
+
 ## KitePodModels v0.4.2 - 2026-09-14
 
 ### Changed
