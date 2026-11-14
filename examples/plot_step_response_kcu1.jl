@@ -1,8 +1,8 @@
 using Pkg
-if ! ("ControlPlots" ∈ keys(Pkg.project().dependencies))
+if ! ("MakieControlPlots" ∈ keys(Pkg.project().dependencies))
     using TestEnv; TestEnv.activate()
 end
-using KitePodModels, ControlPlots
+using KitePodModels, MakieControlPlots
 
 t_end = 10.0 # simulation time
 dt = 1.0 / se().sample_freq

@@ -1,5 +1,4 @@
-ENV["GKSwstype"]="nul"
-using KitePodModels, ControlPlots
+using KitePodModels, MakieControlPlots
 
 cd("..")
 
